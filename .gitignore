@@ -1,0 +1,59 @@
+# Rust's output directory
+target
+
+# Local settings
+.soroban
+.stellar
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Node.js y frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+frontend/.eslintcache
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Archivos de caché generales
+.cache/
+cache/
+
+# Archivos de pruebas y cobertura
+/coverage/
+*.profraw
+*.profdata
+
+# Archivos de dependencias descargadas
+Cargo.lock
+
+# Archivos de configuración personal
+.env
+.env.*
+
+# Otros archivos que no deben versionarse
+*.bak
+*.old

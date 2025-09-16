@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "soroban-dev": {
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": "/home/josealfredo/Lana/mcp-server"
+    }
+  }
+}
